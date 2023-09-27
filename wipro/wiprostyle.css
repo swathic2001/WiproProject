@@ -1,0 +1,105 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#fly {
+position: fixed;
+right:0;
+left:0; 
+}
+.headerimg {
+height: 90px;
+width: 140px;   
+}
+header {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 130px;
+display: flex;
+align-items: center;
+}
+header * {
+display: inline;
+}
+header:hover{
+background-color: white ;
+
+}
+li a:hover{
+text-decoration: underline;
+}
+
+.dv{
+margin-left:15%;
+}
+
+header li a {
+color:rgb(70, 6, 145);
+text-decoration: none;
+padding: 20px;
+font-size:19px;
+font-weight: bold;
+}
+.first{
+position: fixed;
+color:white;
+margin-left: 4%;
+display:flex;
+flex-direction: column;
+margin-top: 14%;
+padding: 10px;
+}
+.heading{ 
+
+font-size: 56px;   
+font-weight: 730;
+
+}
+.para{
+font-size:27px;
+font-weight: 300;
+margin-top:-1%;
+margin-left: 10%;
+}
+.btn {
+width:180px;
+height:60px;
+background-color: rgb(70, 6, 145);
+margin-left: 43%;
+color:white;
+border:0px;
+margin-top:4%;
+border-radius: 30px;
+font-size:20px
+}
+.foot{
+    height:75px;
+    background-color: #1a0285;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.foot .icon {
+color: white;
+font-size: 29px;
+padding-right: 20px;
+  padding-top: 20px;
+    
+  
+  }
+  .foot .pr p{
+    color: rgb(252, 246, 246);
+    font-size: 25px;
+ 
+padding-left: 20px;
+    
+  }
+  .foot .dis p{
+    color: white;
+    font-size:25px;
+    
+
+  }
